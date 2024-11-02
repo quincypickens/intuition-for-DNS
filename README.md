@@ -10,7 +10,12 @@ Various network traffic to and from Azure Virtual Machines with Wireshark as wel
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 
-<h2>Step One </h2>
+<h2>Step One:</h2>
+- Connect/log into DC-1 as your domain admin account (mydomain.com\jane_admin).
 
-- Windows 10 (21H2)
-- Ubuntu Server 20.04
+<h3>Step Two:</h3>
+- Create a DNS A-record on DC-1 for “mainframe” and have it point to DC-1’s Private IP address.
+
+
+
+
