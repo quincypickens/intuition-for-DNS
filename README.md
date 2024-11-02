@@ -39,6 +39,14 @@ Various network traffic to and from Azure Virtual Machines with Wireshark as wel
 
 <img src="https://i.imgur.com/CyJ5Awh.png" height="60%" width="60%" alt="DNS"/>
 
+<h5>Step Four:</h5>
+
+- Go back to DC-1 and create a CNAME record that points the host “search” to “www.google.com”
+- Go back to Client-1 and attempt to ping “search”, observe the results of the CNAME record
+- On Client-1, nslookup “search”, observe the results of the CNAME record
+
+
+
 
 
 
