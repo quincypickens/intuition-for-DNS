@@ -51,6 +51,8 @@ Various network traffic to and from Azure Virtual Machines with Wireshark as wel
 
 - On Client-1, nslookup “search”, observe the results of the CNAME record
 
+<img src="https://i.imgur.com/DrYOyiC.png" height="60%" width="60%" alt="DNS"/>
+
 
 
 
